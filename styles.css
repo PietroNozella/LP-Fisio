@@ -811,6 +811,12 @@ h3 {
     min-height: 420px;
   }
 
+  .about__quote {
+    position: static;
+    max-width: none;
+    margin-top: 16px;
+  }
+
   .service-grid,
   .steps,
   .trust-grid {
@@ -863,14 +869,11 @@ h3 {
   }
 
   .floating-wa {
-    right: 14px;
-    bottom: 14px;
-    width: 58px;
-    height: 58px;
+    display: none;
   }
 
   .footer {
-    padding-bottom: 104px;
+    padding-bottom: 28px;
   }
 }
 

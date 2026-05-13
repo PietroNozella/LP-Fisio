@@ -1,0 +1,41 @@
+<svg width="900" height="980" viewBox="0 0 900 980" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Atendimento fisioterapêutico domiciliar</title>
+  <desc id="desc">Ilustração de uma fisioterapeuta auxiliando uma idosa em exercício de mobilidade.</desc>
+  <rect width="900" height="980" rx="56" fill="#2f6c54"/>
+  <path d="M0 0h900v980H0z" fill="url(#bg)"/>
+  <circle cx="760" cy="132" r="210" fill="#ffffff" opacity=".09"/>
+  <circle cx="134" cy="794" r="190" fill="#d9a46f" opacity=".18"/>
+  <circle cx="455" cy="475" r="315" fill="#ffffff" opacity=".05"/>
+
+  <path d="M144 786c68-76 162-116 281-121 137-6 243 32 318 113 30 32 10 84-34 84H179c-45 0-65-43-35-76Z" fill="#f7f1e7" opacity=".94"/>
+  <path d="M206 794c57-57 134-87 231-91 112-4 199 24 259 84 22 22 9 58-22 58H227c-31 0-43-29-21-51Z" fill="#e8d9c2"/>
+
+  <path d="M368 332c7-60 54-104 112-103 62 1 112 54 112 119 0 33-13 64-35 86-31 32-42 69-42 114v46H408v-51c0-42-12-75-35-105-21-28-9-76-5-106Z" fill="#f6d6bf"/>
+  <path d="M372 323c19-70 76-108 138-94 61 14 101 71 96 134-32-1-59-13-82-37-28 32-69 51-121 54-22 1-39-32-31-57Z" fill="#1d2622"/>
+  <path d="M399 502h130c59 0 108 48 108 108v127H293V608c0-58 48-106 106-106Z" fill="#f7f1e7"/>
+  <path d="M329 535c54 42 118 50 191 17 26-12 58 6 66 34l44 151H291l35-176c2-10 3-18 3-26Z" fill="#ffffff"/>
+  <path d="M424 502h75v83c0 20-17 37-37 37h-1c-20 0-37-17-37-37v-83Z" fill="#e8b99c"/>
+  <path d="M306 624c-50 27-88 72-110 135" stroke="#f7f1e7" stroke-width="34" stroke-linecap="round"/>
+  <path d="M633 615c42 31 77 71 105 119" stroke="#f7f1e7" stroke-width="34" stroke-linecap="round"/>
+
+  <path d="M213 438c4-46 39-82 84-84 51-2 94 38 97 91 2 29-9 57-29 77-23 24-32 52-32 86v31H246v-35c0-32-9-58-27-82-17-22-8-61-6-84Z" fill="#d8b392"/>
+  <path d="M214 432c12-58 58-92 111-82 54 10 88 57 86 110-56 2-102-17-138-58-14 21-34 34-59 40Z" fill="#5b4a3d"/>
+  <path d="M244 631h88c51 0 93 42 93 93v125H160V715c0-46 38-84 84-84Z" fill="#d9e6db"/>
+  <path d="M270 618h45v57c0 12-10 22-22 22h-1c-12 0-22-10-22-22v-57Z" fill="#c99472"/>
+  <path d="M425 744c52-16 87-54 105-114" stroke="#ffffff" stroke-width="30" stroke-linecap="round"/>
+  <path d="M423 743c-35 13-68 9-99-12" stroke="#ffffff" stroke-width="30" stroke-linecap="round"/>
+  <path d="M526 630c10-37 31-66 62-88" stroke="#ffffff" stroke-width="30" stroke-linecap="round"/>
+
+  <path d="M638 484h105c35 0 63 28 63 63v180c0 35-28 63-63 63H638c-35 0-63-28-63-63V547c0-35 28-63 63-63Z" fill="#214d3d" opacity=".72"/>
+  <path d="M645 568h86M645 638h86M645 708h48" stroke="#f7f1e7" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="744" cy="708" r="34" fill="#25d366"/>
+  <path d="m730 709 11 11 25-31" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <defs>
+    <linearGradient id="bg" x1="92" y1="110" x2="868" y2="957" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#244f3f"/>
+      <stop offset=".55" stop-color="#477b62"/>
+      <stop offset="1" stop-color="#32644f"/>
+    </linearGradient>
+  </defs>
+</svg>

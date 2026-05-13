@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   >
   <link rel="stylesheet" href="styles.css">
@@ -30,7 +30,7 @@
           <a href="#como-funciona">Como funciona</a>
           <a href="#sobre">Sobre</a>
           <a href="#confianca">Confiança</a>
-          <a class="button button--nav" data-wa-link href="#">Falar no WhatsApp</a>
+          <a class="button button--nav" data-wa-link href="#">WhatsApp</a>
         </div>
       </div>
     </nav>
@@ -40,12 +40,13 @@
         <div class="hero__content reveal">
           <p class="eyebrow">Fisioterapia domiciliar · Rio de Janeiro</p>
           <h1>
-            Fisioterapia domiciliar para idosos no
-            <span>Rio de Janeiro</span>
+            Fisioterapia em casa para idosos
+            <span>no Rio de Janeiro</span>
           </h1>
           <p class="hero__lead">
-            Atendimento individualizado em casa ou no hospital, com avaliação fisioterapêutica,
-            plano de cuidado e acompanhamento focado em mobilidade, força, equilíbrio e qualidade de vida.
+            Avaliação, plano de cuidado e acompanhamento em casa ou no hospital,
+            com foco em <strong>mobilidade</strong>, <strong>força</strong>, <strong>equilíbrio</strong>
+            e mais segurança na rotina.
           </p>
 
           <div class="hero__actions">
@@ -57,23 +58,22 @@
             <div class="hero__credential-dot"></div>
             <p>
               <strong>Formada pelo IBMR</strong>
-              <span>Atuação voltada ao cuidado de pacientes idosos</span>
+              <span>Cuidado voltado a idosos, família e rotina</span>
             </p>
           </div>
         </div>
 
-        <div class="hero__media reveal" aria-hidden="true">
+        <div class="hero__media reveal">
           <div class="hero__panel">
-            <div class="hero__panel-mark">
-              <span></span>
-            </div>
+            <img
+              class="hero__image"
+              src="assets/physio-care.svg"
+              alt="Fisioterapeuta auxiliando uma idosa em exercício de mobilidade"
+            >
             <div class="hero__panel-copy">
               <strong>Atendimento no RJ</strong>
               <span>Domicílio e hospital</span>
             </div>
-          </div>
-          <div class="hero__card">
-            <p>Cuidado individualizado, orientação clara e acompanhamento próximo da família.</p>
           </div>
         </div>
       </div>
@@ -84,14 +84,14 @@
     <section class="section section--soft">
       <div class="container container--narrow center reveal">
         <p class="eyebrow eyebrow--center">Para quem cuida</p>
-        <h2>Quando a mobilidade muda, a família precisa de orientação clara.</h2>
+        <h2>Quando a mobilidade muda, a família precisa de clareza.</h2>
         <p class="section__text">
           Quando um pai, uma mãe ou um familiar começa a perder mobilidade, equilíbrio ou independência,
-          é comum a família não saber exatamente por onde começar. A fisioterapia domiciliar ajuda a avaliar
-          o quadro, orientar a rotina e construir um plano de tratamento possível.
+          é comum não saber exatamente por onde começar. A fisioterapia domiciliar ajuda a entender o quadro,
+          orientar a rotina e construir um plano de tratamento possível.
         </p>
         <p class="section__highlight">
-          A Márlia atua com escuta, técnica e cuidado individualizado para esse momento.
+          Escuta, técnica e cuidado individualizado para atravessar esse momento com mais segurança.
         </p>
       </div>
     </section>
@@ -100,44 +100,81 @@
       <div class="container">
         <div class="section__intro reveal">
           <div>
-            <p class="eyebrow">O que ela trata</p>
-            <h2>Atendimentos especializados para cada necessidade.</h2>
+            <p class="eyebrow">Áreas de cuidado</p>
+            <h2>Atendimento pensado para diferentes necessidades.</h2>
           </div>
           <p>
-            Cada paciente recebe um plano de cuidado adaptado ao seu quadro, à rotina da família
+            Cada paciente recebe um plano adaptado ao quadro clínico, à rotina da família
             e aos objetivos definidos na avaliação. A proposta é unir técnica, escuta e acompanhamento consistente.
           </p>
         </div>
 
         <div class="service-grid">
           <article class="service-card reveal">
-            <div class="service-card__icon">N</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 7.5v9" />
+                <path d="M8.5 9.25 12 7.5l3.5 1.75" />
+                <path d="M9.25 14.5 12 16.5l2.75-2" />
+                <path d="M7 12h.01" />
+                <path d="M17 12h.01" />
+              </svg>
+            </div>
             <h3>Reabilitação neurológica</h3>
-            <p>Acompanhamento para quadros que afetam movimento, equilíbrio e autonomia.</p>
+            <p>Acompanhamento para condições que afetam movimento, equilíbrio e autonomia.</p>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon">O</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8 8c0-1.1.9-2 2-2 .7 0 1.3.35 1.65.9l.7 1.1c.35.55.95.9 1.6.9H15c1.1 0 2 .9 2 2s-.9 2-2 2h-1.05c-.65 0-1.25.35-1.6.9l-.7 1.1c-.35.55-.95.9-1.65.9-1.1 0-2-.9-2-2 0-.4.12-.8.35-1.1l1.15-1.65-1.15-1.65A1.96 1.96 0 0 1 8 8Z" />
+                <path d="M15.5 9.25 17.75 7" />
+                <path d="M15.5 14.75 17.75 17" />
+              </svg>
+            </div>
             <h3>Reabilitação ortopédica</h3>
-            <p>Cuidado após quedas, cirurgias, dores ou limitações de mobilidade.</p>
+            <p>Cuidado após quedas, cirurgias, dores e outras limitações funcionais.</p>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon">M</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 4.5v15" />
+                <path d="m9.25 7.25 2.75-2.75 2.75 2.75" />
+                <path d="m9.25 16.75 2.75 2.75 2.75-2.75" />
+                <path d="M6 12h12" />
+                <path d="m8.75 9.25-2.75 2.75 2.75 2.75" />
+                <path d="m15.25 9.25 2.75 2.75-2.75 2.75" />
+              </svg>
+            </div>
             <h3>Força, equilíbrio e mobilidade</h3>
-            <p>Exercícios adaptados para mais segurança nas atividades do dia a dia.</p>
+            <p>Exercícios adaptados para trazer mais segurança à rotina e ao dia a dia.</p>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon">R</div>
-            <h3>Recursos terapêuticos complementares</h3>
-            <p>Técnicas e equipamentos usados conforme avaliação fisioterapêutica.</p>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8 9.25h8" />
+                <path d="M8 14.75h8" />
+                <path d="M12 6v12" />
+                <path d="M6 12h12" />
+              </svg>
+            </div>
+            <h3>Recursos terapêuticos de apoio</h3>
+            <p>Técnicas e recursos indicados conforme a avaliação fisioterapêutica.</p>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon">H</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4.5 19.5h15" />
+                <path d="M6.5 19.5v-9l5.5-4 5.5 4v9" />
+                <path d="M9.5 13h5" />
+                <path d="M12 10.5v5" />
+              </svg>
+            </div>
             <h3>Atendimento domiciliar e hospitalar</h3>
-            <p>Sessões conduzidas no ambiente do paciente, com orientação para a rotina.</p>
+            <p>Sessões no ambiente do paciente, com orientação prática para a rotina.</p>
           </article>
         </div>
       </div>
@@ -147,26 +184,26 @@
       <div class="container">
         <div class="container--narrow center reveal">
           <p class="eyebrow eyebrow--center">Como funciona</p>
-          <h2>Como é o atendimento com a Márlia?</h2>
+          <h2>Um processo simples, com orientação do primeiro contato ao acompanhamento.</h2>
         </div>
 
         <div class="steps">
           <article class="step reveal">
             <span class="step__number">01</span>
             <h3>Primeiro contato</h3>
-            <p>Você envia uma mensagem pelo WhatsApp contando a situação do paciente e a região de atendimento.</p>
+            <p>Você relata a situação do paciente, a região atendida e as dúvidas da família.</p>
           </article>
 
           <article class="step reveal">
             <span class="step__number">02</span>
             <h3>Avaliação inicial</h3>
-            <p>Márlia realiza uma avaliação inicial, entende o histórico do paciente e define os objetivos do tratamento.</p>
+            <p>Márlia avalia o histórico, a mobilidade e define os objetivos do cuidado.</p>
           </article>
 
           <article class="step reveal">
             <span class="step__number">03</span>
             <h3>Tratamento contínuo</h3>
-            <p>As sessões são conduzidas no ritmo do paciente, com exercícios e recursos adequados ao quadro clínico.</p>
+            <p>As sessões seguem o ritmo do paciente, com exercícios adequados ao quadro.</p>
           </article>
         </div>
       </div>
@@ -174,20 +211,27 @@
 
     <section class="section section--soft" id="sobre">
       <div class="container about">
-        <div class="about__media reveal" aria-hidden="true">
-          <div class="about__portrait"></div>
+        <div class="about__media reveal">
+          <div class="about__portrait">
+            <div class="about__mark">M</div>
+            <div class="about__signals">
+              <span>IBMR Rio de Janeiro</span>
+              <span>Atendimento domiciliar</span>
+              <span>Orientação familiar</span>
+            </div>
+          </div>
           <div class="about__quote">“Cuidar da mobilidade também é cuidar da autonomia.”</div>
         </div>
 
         <div class="about__content reveal">
           <p class="eyebrow">Sobre a Márlia</p>
-          <h2>Formação em fisioterapia, cuidado centrado no paciente.</h2>
+          <h2>Formação em fisioterapia e cuidado centrado no paciente.</h2>
           <p>
             Márlia é fisioterapeuta formada pelo <strong>IBMR, no Rio de Janeiro</strong>, com atuação voltada
             ao cuidado de pacientes idosos, mobilidade, equilíbrio, reabilitação funcional e qualidade de vida.
           </p>
           <p>
-            Seu atendimento combina avaliação individualizada, orientação familiar e um plano de tratamento
+            Seu atendimento combina <strong>avaliação individualizada</strong>, <strong>orientação familiar</strong> e um plano de tratamento
             adaptado à rotina, aos limites e aos objetivos de cada paciente.
           </p>
 
@@ -212,17 +256,17 @@
         <div class="trust-grid">
           <article class="trust-card reveal">
             <h3>Avaliação individualizada</h3>
-            <p>O atendimento começa entendendo histórico, limitações, rotina e objetivos do paciente.</p>
+            <p>O atendimento começa pelo histórico, pela rotina e pelos objetivos do paciente.</p>
           </article>
 
           <article class="trust-card reveal">
             <h3>Cuidado no ambiente do paciente</h3>
-            <p>As sessões acontecem em casa ou no hospital, com orientação prática para o dia a dia.</p>
+            <p>As sessões acontecem em casa ou no hospital, com orientação para o dia a dia.</p>
           </article>
 
           <article class="trust-card reveal">
             <h3>Família mais orientada</h3>
-            <p>A família recebe explicações claras sobre evolução, cuidados e próximos passos do tratamento.</p>
+            <p>A família recebe explicações claras sobre evolução, cuidados e próximos passos.</p>
           </article>
         </div>
       </div>
@@ -231,12 +275,12 @@
     <section class="section section--cta">
       <div class="container container--narrow center reveal">
         <p class="eyebrow eyebrow--center eyebrow--light">Vamos conversar</p>
-        <h2>Vamos conversar sobre o melhor cuidado para o seu familiar?</h2>
+        <h2>Vamos conversar sobre o cuidado ideal para o seu familiar?</h2>
         <p class="section__text section__text--light">
           Envie uma mensagem pelo WhatsApp para contar a situação do paciente,
           tirar dúvidas e verificar disponibilidade de atendimento.
         </p>
-        <a class="button button--light" data-wa-link href="#">Falar com a Márlia pelo WhatsApp</a>
+        <a class="button button--light section__cta-button" data-wa-link href="#">Falar com a Márlia pelo WhatsApp</a>
       </div>
     </section>
   </main>
@@ -249,7 +293,7 @@
           <span class="brand__tag">Fisioterapia</span>
         </div>
         <p class="footer__text">
-          Fisioterapia especializada no cuidado de idosos, com atendimento domiciliar e hospitalar no Rio de Janeiro.
+          Fisioterapia para idosos, com atendimento domiciliar e hospitalar no Rio de Janeiro.
         </p>
       </div>
 
@@ -257,7 +301,7 @@
         <p class="footer__title">Contato</p>
         <ul class="footer__list">
           <li><a data-wa-link href="#">WhatsApp</a></li>
-          <li><a data-instagram-link href="#" target="_blank" rel="noopener">Instagram</a></li>
+          <li data-instagram-item><a data-instagram-link href="#" target="_blank" rel="noopener">Instagram</a></li>
         </ul>
       </div>
 
@@ -271,11 +315,14 @@
 
     <div class="container footer__bottom">
       <span>© <span id="current-year"></span> Márlia Fisioterapia. Todos os direitos reservados.</span>
-      <span>Estrutura pronta para publicação estática.</span>
     </div>
   </footer>
 
-  <a class="floating-wa" data-wa-link href="#" aria-label="Falar no WhatsApp">WA</a>
+  <a class="floating-wa" data-wa-link href="#" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M16.04 3.2A12.7 12.7 0 0 0 5.1 22.36L3.2 29l6.82-1.8A12.7 12.7 0 1 0 16.04 3.2Zm0 2.24a10.46 10.46 0 0 1 8.82 16.08 10.44 10.44 0 0 1-13.94 3.48l-.48-.28-4.04 1.06 1.08-3.94-.32-.5A10.46 10.46 0 0 1 16.04 5.44Zm-4.2 5.42c-.22 0-.56.08-.86.4-.3.32-1.14 1.12-1.14 2.72s1.16 3.16 1.32 3.38c.16.22 2.24 3.58 5.54 4.88 2.74 1.08 3.3.86 3.9.8.6-.06 1.94-.8 2.22-1.56.28-.76.28-1.42.2-1.56-.08-.14-.3-.22-.62-.38-.32-.16-1.94-.96-2.24-1.06-.3-.12-.52-.16-.74.16-.22.32-.84 1.06-1.04 1.28-.18.22-.38.24-.7.08-.32-.16-1.36-.5-2.6-1.6-.96-.86-1.6-1.92-1.8-2.24-.18-.32-.02-.5.14-.66.14-.14.32-.38.48-.56.16-.18.22-.32.32-.54.1-.22.06-.4-.02-.56-.08-.16-.72-1.76-1-2.4-.26-.62-.52-.54-.72-.56h-.64Z" />
+    </svg>
+  </a>
 
   <script src="script.js"></script>
 </body>

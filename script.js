@@ -13,6 +13,7 @@ function applyContactLinks() {
   const whatsappUrl = buildWhatsAppUrl(siteConfig.whatsappNumber, siteConfig.whatsappMessage);
   const whatsappLinks = document.querySelectorAll("[data-wa-link]");
   const instagramLinks = document.querySelectorAll("[data-instagram-link]");
+  const instagramItems = document.querySelectorAll("[data-instagram-item]");
   const coverageTargets = document.querySelectorAll("[data-coverage-text]");
 
   whatsappLinks.forEach((link) => {
@@ -29,6 +30,10 @@ function applyContactLinks() {
     }
 
     link.hidden = true;
+  });
+
+  instagramItems.forEach((item) => {
+    item.hidden = !siteConfig.instagramUrl;
   });
 
   coverageTargets.forEach((item) => {

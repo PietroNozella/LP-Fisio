@@ -849,7 +849,7 @@ h3 {
   }
 
   .hero__credential {
-    width: 100%;
+    width: calc(100% - 78px);
   }
 
   .hero__media,
@@ -867,6 +867,20 @@ h3 {
     bottom: 14px;
     width: 58px;
     height: 58px;
+  }
+
+  .footer {
+    padding-bottom: 104px;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand__tag {
+    display: none;
+  }
+
+  .floating-wa {
+    display: none;
   }
 }
 

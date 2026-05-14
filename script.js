@@ -2,7 +2,7 @@ const siteConfig = {
   whatsappNumber: "5521000000000",
   whatsappMessage: "Olá Márlia! Vim pelo site e gostaria de agendar uma avaliação.",
   instagramUrl: "",
-  coverageText: "Domicílio e hospital. A região de atendimento é confirmada no primeiro contato.",
+  coverageText: "Atendimento domiciliar e Pilates. A região e a disponibilidade são confirmadas no primeiro contato.",
 };
 
 function buildWhatsAppUrl(number, message) {

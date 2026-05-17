@@ -1,8 +1,8 @@
 const siteConfig = {
-  whatsappNumber: "5521000000000",
-  whatsappMessage: "Olá Márlia! Vim pelo site e gostaria de agendar uma avaliação.",
-  instagramUrl: "",
-  coverageText: "Atendimento domiciliar e Pilates. A região e a disponibilidade são confirmadas no primeiro contato.",
+  whatsappNumber: "5521968940932",
+  whatsappMessage: "Olá, vim através do seu site e gostaria de saber mais sobre seus serviços.",
+  instagramUrl: "https://www.instagram.com/marliafisioterapeuta",
+  coverageText: "Atendimento domiciliar. A região e a disponibilidade são confirmadas no primeiro contato.",
 };
 
 function buildWhatsAppUrl(number, message) {

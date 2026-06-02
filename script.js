@@ -2,7 +2,6 @@ const siteConfig = {
   whatsappNumber: "5521968940932",
   whatsappMessage: "Olá, vim através do seu site e gostaria de saber mais sobre seus serviços.",
   instagramUrl: "https://www.instagram.com/marliafisioterapeuta",
-  coverageText: "Atendimento domiciliar. A região e a disponibilidade são confirmadas no primeiro contato.",
 };
 
 function buildWhatsAppUrl(number, message) {
@@ -14,7 +13,6 @@ function applyContactLinks() {
   const whatsappLinks = document.querySelectorAll("[data-wa-link]");
   const instagramLinks = document.querySelectorAll("[data-instagram-link]");
   const instagramItems = document.querySelectorAll("[data-instagram-item]");
-  const coverageTargets = document.querySelectorAll("[data-coverage-text]");
 
   whatsappLinks.forEach((link) => {
     link.setAttribute("href", whatsappUrl);
@@ -36,9 +34,6 @@ function applyContactLinks() {
     item.hidden = !siteConfig.instagramUrl;
   });
 
-  coverageTargets.forEach((item) => {
-    item.textContent = siteConfig.coverageText;
-  });
 }
 
 function applyCurrentYear() {
